@@ -1,5 +1,5 @@
 # cafe-purani-jeans-Freelancing-
-cafe purani jeans website menu list page(Freelancing)
+CafePuraniJeans website menu list page(Freelancing)
 
 # Original Website
 https://www.cafepuranijeans.com/
