@@ -2,9 +2,6 @@ body,   button {
     font-family: 'Poppins' !important;
 }
 
-.nav-link:hover {
-    color: blue !important;
-}
 
 .btn-success {
     background-color: #25d366 !important;
@@ -68,4 +65,21 @@ h4 {
 .bottom-text {
     background-color: #131517;
     color: ghostwhite;
+}
+
+
+/* Pizza corner style */
+.breadcrumb {
+    background-color: #131517 !important;
+    font-size: 20px;
+}
+
+.list-item-img {
+    width: 80px;
+    border-radius: 50%;
+}
+
+small {
+    font-size: 10px;
+    color: red;
 }
