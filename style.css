@@ -24,11 +24,22 @@ h4 {
     color: white;
     text-align: center;
     font-size: 50px;
+    border-radius: 5px;
+}
+
+.category-title {
+    background-color: #f5f11b;
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 5px;
 }
 
 .footer {
     background-image: url('https://www.healthline.com/hlcmsresource/images/AN_images/healthy-eating-ingredients-1200x628-facebook.jpg');
     height: 100%;
+    background-attachment: fixed;
+    background-position: center;
 }
 
 .footer-img {
@@ -39,4 +50,22 @@ h4 {
     text-align: center;
     font-size: 25px;
     font-weight: bolder;
+}
+
+.icon {
+    border-style: dotted;
+    border-radius: 50%;
+    color: white;
+    padding: 8px;
+}
+
+.icon:hover {
+    color: black;
+    background-color: white;
+    border-style: solid;
+}
+
+.bottom-text {
+    background-color: #131517;
+    color: ghostwhite;
 }
