@@ -1,0 +1,42 @@
+body,   button {
+    font-family: 'Poppins' !important;
+}
+
+.nav-link:hover {
+    color: blue !important;
+}
+
+.btn-success {
+    background-color: #25d366 !important;
+    border-radius: 40px;
+}
+
+.btn-success:hover {
+    background-color: #0ad118 !important;
+}
+
+h4 {
+    text-align: center;
+}
+
+.header-menu {
+    background-color: #131517;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+
+.footer {
+    background-image: url('https://www.healthline.com/hlcmsresource/images/AN_images/healthy-eating-ingredients-1200x628-facebook.jpg');
+    height: 100%;
+}
+
+.footer-img {
+    background-color: black;
+    opacity: 0.8;
+    height: 100%;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bolder;
+}
