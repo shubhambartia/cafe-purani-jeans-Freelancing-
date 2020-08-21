@@ -19,21 +19,6 @@ h4 {
     text-align: center;
 }
 
-@media only screen and (max-width: 425px) {
-    .logo {
-        width: 60% !important;
-    }
-
-    .header-menu {
-        padding: 10px !important;
-        font-size: 25px !important;
-    }
-
-    .category-title {
-        padding: 8px !important;
-        font-size: 15px !important;
-    }
-}
 
 .header-menu {
     background-color: #131517;
@@ -107,4 +92,40 @@ h4 {
 small {
     font-size: 10px;
     color: red;
+}
+
+
+/* Responsive to specific width */
+@media only screen and (max-width: 425px) {
+    .nav-link {
+        font-size: small !important;
+    }
+
+    .nav-item:not(:last-child) {
+        border-bottom: 1px solid grey;
+    }
+
+    .logo {
+        width: 60% !important;
+    }
+
+    .header-menu {
+        padding: 10px !important;
+        font-size: 25px !important;
+    }
+
+    .category-title {
+        padding: 8px !important;
+        font-size: 15px !important;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1000px) {
+    .nav-link {
+        font-size: 12px !important;
+    }
+
+    .nav-item:not(:last-child) {
+        border-bottom: 1px solid grey;
+    }
 }
