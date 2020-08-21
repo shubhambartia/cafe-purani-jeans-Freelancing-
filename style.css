@@ -40,6 +40,7 @@ h4 {
 .card:hover {
     color: #0c3f66;
     transform: scale(1.1) !important; 
+    z-index: 10;
 }
 
 .footer {
