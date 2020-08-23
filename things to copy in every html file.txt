@@ -1,4 +1,7 @@
 1.  Copy the below <head> section.. Only change the title according to the page:-
+
+<link rel="shortcut icon" href="https://www.cafepuranijeans.com/wp-content/uploads/2020/03/icon.png" type="image/x-icon">
+
  <!--optin-chat-->
     <script src="https://static.optinchat.com/optinchat.js" id="oc_script" convid="8msj9VZpeYbMXFsEgf38uFfZBwu1"
     async="true"></script>
