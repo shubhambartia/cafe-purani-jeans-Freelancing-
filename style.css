@@ -5,20 +5,24 @@ body,   button {
 .logo {
     width: 85%;
 }
-
+ 
 .btn-success {
     background-color: #25d366 !important;
     border-radius: 40px;
+    color: white !important;
 }
-
+ 
 .btn-success:hover {
     background-color: #0ad118 !important;
+    color: white !important;
 }
 
 h4 {
     text-align: center;
 }
-
+.sticky-top {
+z-index: 99 !important;
+}
 
 .header-menu {
     background-color: #131517;
@@ -89,7 +93,9 @@ h4 {
     width: 80px;
     border-radius: 50%;
 }
-
+.navbar {
+    padding: 0 0;
+}
 small {
     font-size: 10px;
     color: red;
