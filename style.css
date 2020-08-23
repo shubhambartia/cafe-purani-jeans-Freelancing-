@@ -20,9 +20,9 @@ body,   button {
 h4 {
     text-align: center;
 }
+.sticky-top {
+z-index: 99;
 
-#oc_script {
-    z-index: 999 !important;
 }
 .header-menu {
     background-color: #131517;
