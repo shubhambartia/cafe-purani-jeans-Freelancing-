@@ -98,17 +98,21 @@ h4 {
 }
 
 .list-item-img {
-    width: 80px;
+    width: 20px;
+    background-color: darkslategrey !important;
     border-radius: 50%;
 }
 .navbar {
     padding: 0 0;
 }
-small {
-    font-size: 10px;
-    color: red;
+
+.orange-small {
+    color: orange;
 }
 
+.red-small {
+    color: red;
+}
 
 /* Responsive to specific width */
 @media only screen and (max-width: 425px) {
